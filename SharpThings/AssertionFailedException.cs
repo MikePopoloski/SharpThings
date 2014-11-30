@@ -6,7 +6,7 @@ namespace SharpThings {
     /// The exception that is thrown when an assertion fails.
     /// </summary>
     [Serializable]
-    public sealed class AssertionFailedException : Exception {
+    public class AssertionFailedException : Exception {
         /// <summary>
         /// Initializes a new instance of the <see cref="AssertionFailedException"/> class.
         /// </summary>

@@ -5,7 +5,7 @@ namespace SharpThings {
     /// <summary>
     /// An implementation of the IServiceProvider interface for dependency injection.
     /// </summary>
-    public class ServiceProvider : IServiceProvider {
+    public sealed class ServiceProvider : IServiceProvider {
         Dictionary<Type, object> services = new Dictionary<Type, object>();
 
         /// <summary>
